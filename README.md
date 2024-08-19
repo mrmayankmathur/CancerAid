@@ -1,94 +1,116 @@
-<div align="center">
-  <br />
-  <a href="https://www.imghippo.com/i/ZK4zy1722288141.jpg" title="Project Screenshot" target="_blank">
-    <img src="https://i.imghippo.com/files/ZK4zy1722288141.jpg" width="100%" alt="Project Screenshot"/>
-  </a>
-  <br />
-  <div>
-    <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logoColor=white&logo=javascript&color=F7DF1E" alt="javascript" />
-    <img src="https://img.shields.io/badge/-Gemini AI-black?style=for-the-badge&logoColor=white&logo=gemini&color=412991" alt="gemini ai" />
-  </div>
-  <h3 align="center">AI Cancer Care (BeatCancer: AI Assistant to Craft Personalized Cancer Care)</h3>
-  <div align="center">
-    Welcome to the AI Cancer Care project, a revolutionary AI assistant designed to provide personalized cancer care by analyzing patient data, guidelines, and medical records. Our goal is to identify screening gaps and create tailored treatment plans to improve patient outcomes.
-  </div>
-</div>
+# Cancer Aid ⚕️ Personalized AI Cancer Care Assistant
 
-## 📋 Table of Contents
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
 
-1. 🤖 [Introduction](#introduction)
-2. 🔋 [Features](#features)
-3. 🏆 [Inspiration](#inspiration)
-4. ⚙️ [Setup and Deployment](#setup-and-deployment)
-5. 🚀 [Usage](#usage)
-6. 🌠 [Gemini AI Integration](#gemini-ai-integration)
-7. 🤝 [Contributing](#contributing)
-8. 📜 [License](#license)
+![Cancer-AID](https://github.com/user-attachments/assets/84dd3c54-0a3b-4729-93f8-b7ff5368d521)
 
-## 🤖 Introduction
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Inspiration](#inspiration)
+- [Setup and Deployment](#setup-and-deployment)
+- [Usage](#usage)
+- [Gemini AI Integration](#gemini-ai-integration)
+- [Contributing](#contributing)
 
-AI Cancer Care provides an easy and efficient way to craft personalized cancer care using AI. It interacts with the Gemini AI to analyze and generate detailed treatment plans based on patient data and medical records.
+## Introduction
 
-## 🔋 Features
+`Cancer Aid` is a groundbreaking AI-driven platform designed to deliver personalized cancer care by analyzing patient data, medical records, and clinical guidelines. Leveraging advanced AI capabilities, the platform identifies screening gaps, crafts individualized treatment plans, and enhances the overall quality of patient care. By integrating with Gemini AI, the assistant provides real-time insights and tailored recommendations, empowering healthcare providers to offer optimized treatment plans that improve patient outcomes.
 
-- **Personalized Treatment Plans**: Analyzes patient data, medical records, and guidelines to identify gaps in cancer screening and follow-up care, crafting tailored treatment plans for individual patients.
-- **Secure Data Sharing**: Shares sensitive data securely using encryption and cryptographic features, protecting patient information while facilitating necessary data access for healthcare providers.
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
 
-## 🏆 Inspiration
+## Features
 
-This project is deeply personal to me. My grandmother recently passed away from cancer, and witnessing her struggle firsthand inspired me to create a solution that could help others in similar situations. She often faced difficulties in coordinating her care and keeping track of her treatment plan, which sometimes led to missed appointments and delayed treatments. I wanted to build an application that could alleviate these challenges for other patients and their families.
+### Personalized Treatment Plans
+AI Cancer Aid analyzes patient data, including medical history, lab results, and imaging reports, to identify gaps in cancer screening and follow-up care. The AI generates personalized treatment plans that are tailored to the specific needs and conditions of each patient, ensuring that care is both comprehensive and timely.
 
-## ⚙️ Setup and Deployment
+### Secure Data Sharing
+The platform ensures the secure handling of sensitive patient information through encryption and cryptographic features. This allows for safe and compliant data sharing between patients and healthcare providers, while maintaining the privacy and integrity of medical records.
+
+### Advanced Diagnostic Capabilities
+Integrating Gemini AI enables advanced diagnostic capabilities, including the analysis of medical images and natural language processing. These tools enhance the accuracy of treatment plans and improve the precision of data interpretation.
+
+### Real-Time Monitoring and Alerts
+The platform offers a user-friendly dashboard that allows patients to monitor their progress, view completed screenings, and receive alerts for upcoming appointments. This feature helps in reducing the risk of missed appointments and delayed treatments.
+
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
+
+## Inspiration
+
+The inspiration for AI Cancer Aid is rooted in a personal experience. Witnessing a loved one struggle with cancer, and observing the challenges they faced in coordinating care and managing treatment, highlighted the need for a more effective and supportive system. This project aims to alleviate those challenges by providing a solution that improves care coordination and ensures that patients receive timely and personalized treatment.
+
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
+
+## Setup and Deployment
 
 ### Prerequisites
-
-- Node.js and npm installed
+- Node.js and npm installed on your system
 
 ### Steps
 
 1. **Clone the Repository**
-
    ```bash
-   git clone https://github.com/mendsalbert/beat-cancer.git
-   cd beat-cancer
+   git clone https://github.com/mrmayankmathur/CancerAid.git
+   cd CancerAid
    ```
 
 2. **Install Dependencies**
-
    ```bash
    npm install
    ```
 
 3. **Setup Environment Variables**
-
    Create a `.env` file in the root directory with the following content:
-
    ```plaintext
-   VITE_GEMINI_API_KEY='Gemini api key here'
+   VITE_GEMINI_API_KEY='Your Gemini API key here'
    ```
 
 4. **Build the Project**
-
    ```bash
    npm run build
    ```
 
-## 🚀 Usage
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
 
-1. **Upload Reports**: Patients or healthcare providers can upload medical reports directly into the system.
-2. **View Treatment Plan**: The AI assistant generates a detailed treatment plan based on the uploaded data and identified gaps.
-3. **Track Progress**: Patients can monitor their progress, completed screenings, and upcoming appointments through a user-friendly dashboard.
+## Usage
 
-## 🌠 Gemini AI Integration
+### Uploading Reports
+Patients or healthcare providers can upload medical reports directly into the system. The AI assistant then processes these reports to generate a comprehensive and personalized treatment plan.
 
-Incorporating Gemini AI into our system provides additional layers of analysis and generative capabilities:
+### Viewing Treatment Plans
+After analysis, the AI assistant generates a detailed treatment plan that outlines the necessary screenings, follow-ups, and treatment steps based on the identified gaps and patient data.
 
-- **Detailed Image Analysis**: Gemini AI can process medical images uploaded by patients or healthcare providers, offering advanced diagnostic insights.
-- **Advanced Natural Language Processing**: Enhances the accuracy of treatment plans and patient data analysis.
-- **Scalable AI Infrastructure**: Leveraging Gemini AI's robust infrastructure allows for real-time data processing and analysis.
+### Tracking Progress
+The platform provides a dashboard where patients can track their treatment progress, view completed screenings, and monitor upcoming appointments. This ensures that patients stay informed and engaged in their care journey.
 
-### Example of Using Gemini AI:
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
 
+## Gemini AI Integration
+
+The integration with Gemini AI significantly enhances the platform’s capabilities by providing:
+
+### Detailed Image Analysis
+Gemini AI processes medical images uploaded by patients or healthcare providers, offering advanced diagnostic insights that contribute to more accurate treatment planning.
+
+### Advanced Natural Language Processing
+Gemini AI's NLP capabilities improve the accuracy of patient data analysis and the generation of treatment plans, ensuring that recommendations are both relevant and precise.
+
+### Scalable AI Infrastructure
+Leveraging Gemini AI's robust infrastructure allows for real-time data processing and analysis, ensuring that the platform can scale to meet the needs of multiple users simultaneously.
+
+### Example of Gemini AI Usage
 ```javascript
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
@@ -122,12 +144,12 @@ const handleFileUpload = async (file, filetype) => {
   console.log(response.text());
 };
 ```
+---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+Contributions to the AI Cancer Aid project are welcome! Whether you have ideas for new features, improvements to existing functionality, or bug fixes, please feel free to fork the repository and submit a pull request. We encourage collaboration and are excited to see the project evolve with your input.
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-# CancerAid
+<p align="left">
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
+</p>
